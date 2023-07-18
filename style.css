@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    display: flex;
+    background-color: #1f2937;
+    font-size: 18px;
+    justify-content: space-between;
+    padding: 20px 10%;
+    align-items: center;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding: 100px 10%;
+    background-color: #1f2937;
+}
+
+.banner-text {
+    width: 500px;
+}
+
+.banner-text h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin-bottom: 0;
+}
+
+.banner-text p {
+    font-size: 20px;
+    color: #e5e7eb;
+    margin-bottom: 20px;
+}
+
+.banner-signup {
+    padding: 12px 35px;
+    background-color: #3882f6;
+    font-size: 18px;
+    color: #e5e7eb;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+#banner-image {
+    height: 300px;
+}
+
+#logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.cards-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.cards-section h2 {
+    font-size: 36px;
+    color: #1f2937;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.cards img {
+    height: 100px;
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.card {
+    width: 170px;
+    font-size: 18px;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 10%;
+    background-color: #e5e7eb;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.quotee {
+    font-weight: 900;
+    font-size: 30px;
+    color: #1f2937;
+    align-self: flex-end;
+}
+
+.call-to-action {
+    padding: 100px;
+}
+
+.cta-box {
+    display: flex;
+    background-color: #3882f6;
+    padding: 50px;
+    justify-content: center;
+    gap: 250px;
+    color: #f9faf8;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.cta-text h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+.cta-text h3 {
+    font-size: 30px;
+}
+
+.cta-text p {
+    font-size: 20px;
+}
+
+.cta-signup {
+    padding: 12px 35px;
+    background-color: #3882f6;
+    font-size: 18px;
+    color: #e5e7eb;
+    border: 4px solid #e5e7eb;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    padding: 30px;
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+}
